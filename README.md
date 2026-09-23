@@ -10,7 +10,7 @@ The workflow has been executed successfully end to end.
 2. Runs Apify-based searches for **LinkedIn** and **Dice** jobs.
 3. Combines both result streams with **Merge**.
 4. Standardizes the source data in **Clean Job Fields**.
-5. checks Supabase for jobs already processed in **Supabase Duplicate Check**.
+5. Checks Supabase for jobs already processed in **Supabase Duplicate Check**.
 6. Removes previously seen records in **Keep Only New Jobs**.
 7. Uses **OpenAI Match Score** to evaluate fit against the configured job-search profile.
 8. Converts the model response into structured data in **Parse Match Score**.
